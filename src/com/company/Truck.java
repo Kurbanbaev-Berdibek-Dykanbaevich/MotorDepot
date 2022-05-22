@@ -10,6 +10,9 @@ public class Truck {
         return id;
     }
 
+    public Truck() {
+    }
+
     public void setId(int id) {
         this.id = id;
     }
