@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "brand": "Renault Magnum",
+    "driver": {
+      "driversId": 0
+    },
+    "status": "BASE"
+  },
+  {
+    "id": 2,
+    "brand": "Volvo         ",
+    "driver": {
+      "driversId": 0
+    },
+    "status": "BASE"
+  },
+  {
+    "id": 3,
+    "brand": "DAF XT        ",
+    "driver": {
+      "driversId": 0
+    },
+    "status": "BASE"
+  }
+]
