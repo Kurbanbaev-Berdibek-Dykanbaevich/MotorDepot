@@ -54,7 +54,7 @@ public class Truck {
         return " " +
                 " " + id + "|" +
                 "" + brand + "        |"+
-                "                " + driver +"  |"+
+                "                " +driver+"  |"+
                 "  " + status ;
     }
 }

@@ -8,10 +8,12 @@ private String trucksBrand;
     public Driver() {
     }
 
-    public Driver(int driversId, String driversName, String trucksBrand) {
-        this.driversId = driversId;
-        this.driversName = driversName;
-        this.trucksBrand = trucksBrand;
+    public static Driver createDriver(int driversId, String driversName, String trucksBrand) {
+        Driver driver = new Driver();
+        driver.driversId = driversId;
+        driver.driversName = driversName;
+        driver.trucksBrand = trucksBrand;
+        return driver;
     }
 
     public int getDriversId() {
@@ -38,12 +40,12 @@ private String trucksBrand;
         this.trucksBrand = trucksBrand;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Driver{" +
-//                "driversId=" + driversId +
-//                ", driversName='" + driversName + '\'' +
-//                ", trucksBrand='" + trucksBrand + '\'' +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return " ";
+    }
+    public String info(){
+        return driversId +"  | "+ driversName +"  | "+trucksBrand;
+    }
 }
+
